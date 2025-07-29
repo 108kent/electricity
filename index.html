@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>配管部品発注システム</title>
+    <title>電気部品発注システム</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>🔧 配管部品発注システム</h1>
+            <h1>🔧 電気部品発注システム</h1>
             <div class="balance">💰 残高: ¥<span id="balance">100,000</span></div>
         </div>
         <div class="main-content">
@@ -18,85 +18,85 @@
                 
                 <div class="product-card">
                     <div class="product-info">
-                        <img src="elbo.png" alt="エルボ" class="product-image">
+                        <img src="neji.png" alt="全ネジ600㎜" class="product-image">
                         <div class="product-details">
-                            <h3>エルボ</h3>
+                            <h3>全ネジ600㎜</h3>
                             <div class="price">¥2,000</div>
                             <div class="delivery-time">📅 納期: 2分</div>
                         </div>
-                        <button class="order-btn" onclick="orderProduct('エルボ', 2000, 2)">発注</button>
+                        <button class="order-btn" onclick="orderProduct('全ネジ600㎜', 2000, 2)">発注</button>
                     </div>
                 </div>
                 
                 <div class="product-card">
                     <div class="product-info">
-                        <img src="suisensoket.png" alt="水栓ソケット" class="product-image">
+                        <img src="nut.png" alt="ナット" class="product-image">
                         <div class="product-details">
-                            <h3>水栓ソケット</h3>
+                            <h3>ナット</h3>
+                            <div class="price">¥2,000</div>
+                            <div class="delivery-time">📅 納期: 2分</div>
+                        </div>
+                        <button class="order-btn" onclick="orderProduct('ナット', 2000, 2)">発注</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-info">
+                        <img src="nagane.png" alt="鋼製アウトレットボックス" class="product-image">
+                        <div class="product-details">
+                            <h3>鋼製アウトレットボックス</h3>
                             <div class="price">¥3,000</div>
                             <div class="delivery-time">📅 納期: 2分</div>
                         </div>
-                        <button class="order-btn" onclick="orderProduct('水栓ソケット', 3000, 2)">発注</button>
+                        <button class="order-btn" onclick="orderProduct('鋼製アウトレットボックス', 3000, 2)">発注</button>
                     </div>
                 </div>
                 
                 <div class="product-card">
                     <div class="product-info">
-                        <img src="bulvesoket.png" alt="パルプソケット" class="product-image">
+                        <img src="concent.png" alt="埋込設置ダブルコンセント" class="product-image">
                         <div class="product-details">
-                            <h3>パルプソケット</h3>
-                            <div class="price">¥3,000</div>
-                            <div class="delivery-time">📅 納期: 2分</div>
-                        </div>
-                        <button class="order-btn" onclick="orderProduct('パルプソケット', 3000, 2)">発注</button>
-                    </div>
-                </div>
-                
-                <div class="product-card">
-                    <div class="product-info">
-                        <img src="suisenelbo.png" alt="水栓エルボ" class="product-image">
-                        <div class="product-details">
-                            <h3>水栓エルボ</h3>
+                            <h3>埋込設置ダブルコンセント</h3>
                             <div class="price">¥5,000</div>
                             <div class="delivery-time">📅 納期: 2分</div>
                         </div>
-                        <button class="order-btn" onclick="orderProduct('水栓エルボ', 5000, 2)">発注</button>
+                        <button class="order-btn" onclick="orderProduct('埋込設置ダブルコンセント', 5000, 2)">発注</button>
                     </div>
                 </div>
                 
                 <div class="product-card">
                     <div class="product-info">
-                        <img src="ballbulve.png" alt="ボールバルブ" class="product-image">
+                        <img src="cover2.png" alt="スイッチカバー" class="product-image">
                         <div class="product-details">
-                            <h3>ボールバルブ</h3>
+                            <h3>スイッチカバー</h3>
                             <div class="price">¥5,000</div>
                             <div class="delivery-time">📅 納期: 2分</div>
                         </div>
-                        <button class="order-btn" onclick="orderProduct('ボールバルブ', 5000, 2)">発注</button>
+                        <button class="order-btn" onclick="orderProduct('スイッチカバー', 5000, 2)">発注</button>
                     </div>
                 </div>
                 
                 <div class="product-card">
                     <div class="product-info">
-                        <img src="bannou.png" alt="万能ホーム水栓" class="product-image">
+                        <img src="box.png" alt="全ネジ用ボックス支持金具" class="product-image">
                         <div class="product-details">
-                            <h3>万能ホーム水栓</h3>
+                            <h3>全ネジ用ボックス支持金具</h3>
                             <div class="price">¥8,000</div>
                             <div class="delivery-time">📅 納期: 2分</div>
                         </div>
-                        <button class="order-btn" onclick="orderProduct('万能ホーム水栓', 8000, 2)">発注</button>
+                        <button class="order-btn" onclick="orderProduct('全ネジ用ボックス支持金具', 8000, 2)">発注</button>
                     </div>
                 </div>
                 
                 <div class="product-card">
                     <div class="product-info">
-                        <img src="pipe.png" alt="VPパイプ" class="product-image">
+                        <img src="plate.png" alt="新金プレート" class="product-image">
                         <div class="product-details">
-                            <h3>VPパイプ</h3>
+                            <h3>新金プレート</h3>
                             <div class="price">¥10,000</div>
                             <div class="delivery-time">📅 納期: 2分</div>
                         </div>
-                        <button class="order-btn" onclick="orderProduct('VPパイプ', 10000, 2)">発注</button>
+                        <button class="order-btn" onclick="orderProduct('新金プレート', 10000, 2)">発注</button>
                     </div>
                 </div>
             </div>
