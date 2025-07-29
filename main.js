@@ -54,7 +54,7 @@ function updateBalance() {
     
     // ボタンの有効/無効を更新
     const orderButtons = document.querySelectorAll('.order-btn');
-    const prices = [2000, 3000, 3000, 5000, 5000, 8000, 10000];
+    const prices = [2000, 2000, 3000, 5000, 5000, 8000, 10000];
     
     orderButtons.forEach((btn, index) => {
         if (prices[index]) {
